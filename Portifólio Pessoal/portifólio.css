@@ -34,8 +34,8 @@ body{
 .informação{
     width: auto;
     height: auto;
-    padding: 15px;
-    background-color:rgba(126, 102, 90, 1) ;
+    padding: 10px;
+    background-color:rgba(161, 135, 123, 1) ;
     margin: 20px;
     border-radius: 20px 20px 0px 0px;
 }
