@@ -79,11 +79,7 @@ mark{
     border-radius: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.btn-info:hover{
-    border: 1px solid black;
-    background-color: #eff1f2;
-    cursor: pointer;
-}
+
 .base1,.base2{
     width: auto;
     background-color:#ffffff ;
