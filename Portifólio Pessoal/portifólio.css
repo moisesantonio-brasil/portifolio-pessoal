@@ -194,11 +194,13 @@ width: 85px;
     width: 250px;
 }
 .p-info{
-    width: 230px;
-    margin: 0px;
+    width: 250px;
+    height:50px;
+    margin: 5px;
+    font-size:11px;
 }
 .btn-info{
-    width: 110px;
+    width: 240px;
    align-items: center;
 }
 .base1,.base2{
