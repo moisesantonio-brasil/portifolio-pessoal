@@ -5,7 +5,8 @@ body{
 
 @media  screen and (min-width: 280px) {
     .base-inicio{
- display: none;
+width: 0px;
+border: none;
     }
     .h1-info{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -16,6 +17,12 @@ body{
         font-weight: bolder;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
+
+    hr{
+        width: 0px;
+border: none;
+    }
+
     .p-info{
         font-size: 13px;
         background-color: silver;
@@ -79,7 +86,14 @@ width: 200px;
     display: flex;
     flex-wrap: wrap;
 }
-
+.base3{
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
 h2{
     width: 180px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -92,7 +106,12 @@ h2{
     margin-left: 60px;
     margin-top: 20px;
 }
-
+.exibiçao2{
+    width: 110px;
+    height: 160px;
+    margin-left: 65px;
+    margin-top: 20px;
+}
 
 a{
     width: auto;
@@ -132,6 +151,12 @@ font-size: 17px;
     .base-inicio{
  display: flex;
     }
+
+    hr{
+        width: 0px;
+        border: none;
+    }
+
     .centro{
         margin: auto;
     width: 300px;
@@ -223,6 +248,15 @@ width: 200px;
     flex-wrap: wrap;
 }
 
+.base3{
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 h2{
     width: 180px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -235,7 +269,12 @@ h2{
     margin-left: 20px;
     margin-top: 20px;
 }
-
+.exibiçao2{
+    width: 110px;
+    height: 160px;
+    margin-left: 65px;
+    margin-top: 20px;
+}
 
 a{
     width: auto;
@@ -276,6 +315,12 @@ font-size: 17px;
  display: flex;
  width: auto;
     }
+
+hr{
+    width: 0px;
+border: none;
+}
+
     .centro{
     width: 300px;
     height: 300px;
@@ -370,6 +415,15 @@ height: 250px;
     flex-wrap: wrap;
 }
 
+.base3{
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 h2{
     width: 180px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -382,7 +436,12 @@ h2{
     margin-left: 20px;
     margin-top: 20px;
 }
-
+.exibiçao2{
+    width: 110px;
+    height: 160px;
+    margin-left: 65px;
+    margin-top: 20px;
+}
 
 a{
     width: auto;
@@ -425,6 +484,13 @@ font-size: 17px;
  background-color:#10334a;
 
     }
+
+    hr{
+        width: 300px;
+        height: 20px;
+     border: none;
+    }
+
     .centro{
     width: auto;
     height: 300px;
@@ -523,6 +589,15 @@ margin: 5px;
     flex-wrap: wrap;
 }
 
+.base3{
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 h2{
     width: 180px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -535,7 +610,12 @@ h2{
     margin-left: 20px;
     margin-top: 20px;
 }
-
+.exibiçao2{
+    width: 110px;
+    height: 160px;
+    margin-left: 65px;
+    margin-top: 20px;
+}
 
 a{
     width: auto;
@@ -578,6 +658,13 @@ font-size: 17px;
  background-color:#10334a;
 
     }
+
+    hr{
+        width: 500px;
+        height: 20px;
+     border: none;
+    }
+
     .centro{
     width: auto;
     height: 300px;
@@ -676,6 +763,15 @@ margin: 5px;
     flex-wrap: wrap;
 }
 
+.base3{
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 h2{
     width: 180px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -688,7 +784,12 @@ h2{
     margin-left: 20px;
     margin-top: 20px;
 }
-
+.exibiçao2{
+    width: 110px;
+    height: 160px;
+    margin-left: 65px;
+    margin-top: 20px;
+}
 
 a{
     width: auto;
@@ -730,6 +831,12 @@ font-size: 17px;
  width: auto;
  background-color:#10334a;
 
+    }
+
+    hr{
+        width: 600px;
+        height: 20px;
+     border: none;
     }
     .centro{
     width: auto;
@@ -835,6 +942,16 @@ margin: auto;
     flex-wrap: wrap;
 }
 
+.base3{
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 h2{
     width: 180px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -845,6 +962,12 @@ h2{
     width: 110px;
     height: 160px;
     margin-left: 20px;
+    margin-top: 20px;
+}
+.exibiçao2{
+    width: 110px;
+    height: 160px;
+    margin-left: 65px;
     margin-top: 20px;
 }
 
@@ -998,6 +1121,21 @@ margin: auto;
     flex-wrap: wrap;
 }
 
+.base3{
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin:30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+hr{
+    width: 1000px;
+    height: 20px;
+ border: none;
+}
 h2{
     width: 280px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -1008,6 +1146,12 @@ h2{
     width: 110px;
     height: 160px;
     margin-left: 20px;
+    margin-top: 20px;
+}
+.exibiçao2{
+    width: 110px;
+    height: 160px;
+    margin-left: 65px;
     margin-top: 20px;
 }
 
