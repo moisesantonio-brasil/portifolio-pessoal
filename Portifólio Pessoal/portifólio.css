@@ -7,6 +7,7 @@ body{
     .base-inicio{
 width: 0px;
 border: none;
+        background-color:white;
     }
     .h1-info{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -40,7 +41,7 @@ border: none;
         width: 200px;
         height: 900px;
         padding: 15px;
-        background-color: #10334a;
+        background-color: black;
         margin: 20px;
         border-radius: 20px ;
 }.sub-espaço{
@@ -58,6 +59,7 @@ width: 200px;
 .titulo-info{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+      color:white;
 }
     .centro{
         width: 400px;
@@ -150,6 +152,7 @@ font-size: 17px;
 @media  screen and (min-width: 320px) {
     .base-inicio{
  display: flex;
+        background-color:black;
     }
 
     hr{
@@ -201,7 +204,7 @@ font-size: 17px;
         width: 200px;
         height: 900px;
         padding: 15px;
-        background-color: #10334a;
+        background-color: black;
         margin: 40px;
         border-radius: 20px ;
 }.sub-espaço{
@@ -219,6 +222,7 @@ width: 200px;
 .titulo-info{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+      color:white;
 }
     .centro{
         width: 400px;
@@ -314,6 +318,7 @@ font-size: 17px;
     .base-inicio{
  display: flex;
  width: auto;
+background-color:black;
     }
 
 hr{
@@ -366,9 +371,10 @@ margin-left: 100px;
         width: 300px;
         height: 920px;
         padding: 15px;
-        background-color: #10334a;
+        background-color: black;
         margin: 30px;
         border-radius: 20px ;
+        
 }.sub-espaço{
     width: 250px;
     height: 300px;
@@ -389,6 +395,7 @@ height: 250px;
 .titulo-info{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+      color:white;
 }
     .centro{
         width: 400px;
@@ -481,7 +488,7 @@ font-size: 17px;
     .base-inicio{
  display: flex;
  width: auto;
- background-color:#10334a;
+ background-color:black;
 
     }
 
@@ -536,7 +543,7 @@ margin-left: 100px;
         width: 750px;
         height: 360px;
         padding: 15px;
-        background-color: #10334a;
+        background-color: black;
       margin: 10px;
         border-radius: 20px ;
         display: flex;
@@ -563,6 +570,7 @@ margin: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     text-align: center;
+      color:white;
 }
     .centro{
         width: 400px;
@@ -655,7 +663,7 @@ font-size: 17px;
     .base-inicio{
  display: flex;
  width: auto;
- background-color:#10334a;
+ background-color:black;
 
     }
 
@@ -710,7 +718,7 @@ margin-left: 100px;
         width: auto;
         height: 360px;
         padding: 15px;
-        background-color: #10334a;
+        background-color: black;
       margin: 10px;
         border-radius: 20px ;
         display: flex;
@@ -737,6 +745,7 @@ margin: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     text-align: center;
+      color:white;
 }
     .centro{
         width: 400px;
@@ -829,7 +838,7 @@ font-size: 17px;
     .base-inicio{
  display: flex;
  width: auto;
- background-color:#10334a;
+ background-color:black;
 
     }
 
@@ -885,7 +894,7 @@ margin-left: 100px;
         width: auto;
         height: 360px;
         padding: 15px;
-        background-color: #10334a;
+        background-color: black;
       margin: 10px;
         border-radius: 20px ;
         display: flex;
@@ -915,6 +924,7 @@ margin: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 22px;
     text-align: center;
+      color:white;
 }
     .centro{
         width: 400px;
@@ -1014,7 +1024,7 @@ font-size: 17px;
  padding: 10px;
  margin-top: 20px;
  border-radius: 20px;
- background-color:#10334a;
+ background-color:black;
 
     }
     .centro{
@@ -1064,8 +1074,7 @@ margin-left: 80px;
         width: auto;
         height: 360px;
         padding: 15px;
-        background-color: #10334a;
-      margin: 40px;
+        background-color: black;
         border-radius: 20px ;
         display: flex;
         flex-wrap: wrap;
@@ -1093,6 +1102,7 @@ margin: auto;
 .titulo-info{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 22px;
+    color:white;
     text-align: center;
 }
     .centro{
