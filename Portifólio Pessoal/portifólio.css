@@ -11,6 +11,7 @@ border: none;
     }
     .h1-info{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          color:white;
     }
     mark{
         background-color: silver;
@@ -59,11 +60,13 @@ width: 200px;
 .titulo-info{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+    text-align:center;
       color:white;
 }
     .centro{
         width: 400px;
         border-radius: none;
+        background-color:black;
     }
     .complemento{
        display: none;
@@ -162,7 +165,7 @@ font-size: 17px;
 
     .centro{
         margin: auto;
-    width: 300px;
+    width: 380px;
     height: 300px;
     background-color:#10334a;
     padding: 5px;
@@ -180,6 +183,7 @@ font-size: 17px;
     }
     .h1-info{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          color:white;
     }
     mark{
         background-color: silver;
@@ -346,6 +350,7 @@ margin-left: 100px;
     }
     .h1-info{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          color:white;
     }
     mark{
         background-color: silver;
@@ -518,6 +523,7 @@ margin-left: 100px;
     .h1-info{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+          color:white;
     }
     mark{
         background-color: silver;
@@ -868,6 +874,7 @@ margin-left: 100px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     font-size: 22px;
+          color:white;
     }
     mark{
         background-color: silver;
@@ -1048,6 +1055,7 @@ margin-left: 80px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     font-size: 22px;
+          color:white;
     }
     mark{
         background-color: silver;
