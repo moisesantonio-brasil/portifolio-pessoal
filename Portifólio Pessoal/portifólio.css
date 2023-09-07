@@ -159,6 +159,7 @@ font-size: 17px;
 @media  screen and (min-width: 320px) {
     .base-inicio{
  display: flex;
+background-color:black;
     }
 
     hr{
@@ -170,7 +171,7 @@ font-size: 17px;
         margin: auto;
     width: 340px;
     height: 300px;
-    background-color:#10334a;
+    background-color:black;
     padding: 5px;
     border-radius:0px 0px 80px 80px;
     }
