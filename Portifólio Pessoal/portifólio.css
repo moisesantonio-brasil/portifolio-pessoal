@@ -1,18 +1,19 @@
 body{
     margin: 0px;
-    background-color: #b5a99d;
+    background-color: #151515;
 }
 
 @media  screen and (min-width: 280px) {
     .base-inicio{
 width: 0px;
 border: none;
-        background-color:white;
     }
     .h1-info{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-          color:white;
-    }
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        font-size: 15px;
+        color:white;
+        }
     mark{
         background-color: silver;
         font-size: 14px;
@@ -39,12 +40,15 @@ border: none;
         height: 260px;
     }
     .informaçao{
-        width: 200px;
-        height: 900px;
+        width: auto;
+        height: 360px;
         padding: 15px;
-        background-color: black;
-        margin: 20px;
+        background-color: rgb(0, 0, 0);
+      margin: 40px;
         border-radius: 20px ;
+        display: flex;
+        flex-wrap: wrap;
+
 }.sub-espaço{
     width: 200px;
     height: 300px;
@@ -58,15 +62,14 @@ width: 200px;
 }
 
 .titulo-info{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    text-align:center;
-      color:white;
-}
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 22px;
+        text-align: center;
+        color:white;
+    }
     .centro{
         width: 400px;
         border-radius: none;
-        background-color:black;
     }
     .complemento{
        display: none;
@@ -155,7 +158,6 @@ font-size: 17px;
 @media  screen and (min-width: 320px) {
     .base-inicio{
  display: flex;
-        background-color:black;
     }
 
     hr{
@@ -165,7 +167,7 @@ font-size: 17px;
 
     .centro{
         margin: auto;
-    width: 380px;
+    width: 300px;
     height: 300px;
     background-color:#10334a;
     padding: 5px;
@@ -182,9 +184,11 @@ font-size: 17px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .h1-info{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-          color:white;
-    }
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        font-size: 17px;
+        color:white;
+        }
     mark{
         background-color: silver;
         font-size: 14px;
@@ -205,12 +209,15 @@ font-size: 17px;
         height: 260px;
     }
     .informaçao{
-        width: 200px;
-        height: 900px;
+        width: auto;
+        height: 360px;
         padding: 15px;
-        background-color: black;
-        margin: 40px;
+        background-color: rgb(0, 0, 0);
+      margin: 40px;
         border-radius: 20px ;
+        display: flex;
+        flex-wrap: wrap;
+
 }.sub-espaço{
     width: 200px;
     height: 300px;
@@ -224,10 +231,11 @@ width: 200px;
 }
 
 .titulo-info{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-      color:white;
-}
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 22px;
+        text-align: center;
+        color:white;
+    }
     .centro{
         width: 400px;
         border-radius: none;
@@ -260,7 +268,7 @@ width: 200px;
     width: 250px;
     padding: 10px;
     border-radius: 20px;
-    margin: 22px;
+    margin: 12px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -322,7 +330,6 @@ font-size: 17px;
     .base-inicio{
  display: flex;
  width: auto;
-background-color:black;
     }
 
 hr{
@@ -349,9 +356,11 @@ margin-left: 100px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .h1-info{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-          color:white;
-    }
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        font-size: 22px;
+        color:white;
+        }
     mark{
         background-color: silver;
         font-size: 15px;
@@ -373,13 +382,15 @@ margin-left: 100px;
      
     }
     .informaçao{
-        width: 300px;
-        height: 920px;
+        width: auto;
+        height: 360px;
         padding: 15px;
-        background-color: black;
-        margin: 30px;
+        background-color: rgb(0, 0, 0);
+      margin: 40px;
         border-radius: 20px ;
-        
+        display: flex;
+        flex-wrap: wrap;
+
 }.sub-espaço{
     width: 250px;
     height: 300px;
@@ -398,10 +409,11 @@ height: 250px;
 }
 
 .titulo-info{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-      color:white;
-}
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 22px;
+        text-align: center;
+        color:white;
+    }
     .centro{
         width: 400px;
         border-radius: none;
@@ -493,7 +505,7 @@ font-size: 17px;
     .base-inicio{
  display: flex;
  width: auto;
- background-color:black;
+ background-color:#10334a;
 
     }
 
@@ -521,10 +533,11 @@ margin-left: 100px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .h1-info{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-          color:white;
-    }
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        font-size: 22px;
+        color:white;
+        }
     mark{
         background-color: silver;
         font-size: 15px;
@@ -546,11 +559,11 @@ margin-left: 100px;
      margin: 5px;
     }
     .informaçao{
-        width: 750px;
+        width: auto;
         height: 360px;
         padding: 15px;
-        background-color: black;
-      margin: 10px;
+        background-color: rgb(0, 0, 0);
+      margin: 40px;
         border-radius: 20px ;
         display: flex;
         flex-wrap: wrap;
@@ -573,11 +586,11 @@ margin: 5px;
 }
 
 .titulo-info{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    text-align: center;
-      color:white;
-}
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 22px;
+        text-align: center;
+        color:white;
+    }
     .centro{
         width: 400px;
         border-radius: none;
@@ -669,7 +682,7 @@ font-size: 17px;
     .base-inicio{
  display: flex;
  width: auto;
- background-color:black;
+ background-color:#10334a;
 
     }
 
@@ -697,9 +710,11 @@ margin-left: 100px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .h1-info{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    }
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        font-size: 22px;
+        color:white;
+        }
     mark{
         background-color: silver;
         font-size: 15px;
@@ -724,8 +739,8 @@ margin-left: 100px;
         width: auto;
         height: 360px;
         padding: 15px;
-        background-color: black;
-      margin: 10px;
+        background-color: rgb(0, 0, 0);
+      margin: 40px;
         border-radius: 20px ;
         display: flex;
         flex-wrap: wrap;
@@ -748,11 +763,11 @@ margin: 5px;
 }
 
 .titulo-info{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    text-align: center;
-      color:white;
-}
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 22px;
+        text-align: center;
+        color:white;
+    }
     .centro{
         width: 400px;
         border-radius: none;
@@ -844,7 +859,7 @@ font-size: 17px;
     .base-inicio{
  display: flex;
  width: auto;
- background-color:black;
+ background-color:#10334a;
 
     }
 
@@ -871,11 +886,11 @@ margin-left: 100px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .h1-info{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    font-size: 22px;
-          color:white;
-    }
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        font-size: 22px;
+        color:white;
+        }
     mark{
         background-color: silver;
         font-size: 15px;
@@ -901,8 +916,8 @@ margin-left: 100px;
         width: auto;
         height: 360px;
         padding: 15px;
-        background-color: black;
-      margin: 10px;
+        background-color: rgb(0, 0, 0);
+      margin: 40px;
         border-radius: 20px ;
         display: flex;
         flex-wrap: wrap;
@@ -928,11 +943,11 @@ margin: auto;
 }
 
 .titulo-info{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 22px;
-    text-align: center;
-      color:white;
-}
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 22px;
+        text-align: center;
+        color:white;
+    }
     .centro{
         width: 400px;
         border-radius: none;
@@ -1037,7 +1052,7 @@ font-size: 17px;
     .centro{
     width: 1000px;
     height: 350px;
-    background-color:#10334a;
+    background-color:black;
     padding: 5px;
     }
     .img-logo{
@@ -1049,13 +1064,14 @@ margin-left: 80px;
         text-align: center;
         font-size: 35px;
         margin: 0px;
+        color:white;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .h1-info{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: 22px;
-          color:white;
+    color:white;
     }
     mark{
         background-color: silver;
@@ -1082,12 +1098,14 @@ margin-left: 80px;
         width: auto;
         height: 360px;
         padding: 15px;
-        background-color: black;
+        background-color: rgb(0, 0, 0);
+      margin: 40px;
         border-radius: 20px ;
         display: flex;
         flex-wrap: wrap;
 
-}.sub-espaço{
+}
+.sub-espaço{
     width: 250px;
     height: 330px;
     margin: auto;
@@ -1108,10 +1126,10 @@ margin: auto;
 }
 
 .titulo-info{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 22px;
-    color:white;
     text-align: center;
+    color:white;
 }
     .centro{
         width: 400px;
