@@ -6,8 +6,10 @@ body{
 @media  screen and (min-width: 280px) {
     .base-inicio{
 width: 280px;
+display: flex;
+background-color: black;
 border: none;
-            background-color: black;
+border-radius: 20px;
     }
     .h1-info{
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -42,7 +44,7 @@ border: none;
     }
     .informaçao{
         width: auto;
-        height: 360px;
+        height: 980px;
         padding: 15px;
         background-color: rgb(0, 0, 0);
       margin: 40px;
@@ -78,6 +80,7 @@ width: 200px;
 .img-logo{
     width: 200px;
     margin-left: 50px;
+    border-radius: 50%;
 }
 .btn-info{
     width: 150px;
@@ -154,12 +157,18 @@ font-size: 17px;
 .base2{
     background-color: rgb(27, 34, 54);
 }
+
+.titulo-centro{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
 }
 
 @media  screen and (min-width: 320px) {
     .base-inicio{
  display: flex;
-background-color:black;
+ width: 390px;
     }
 
     hr{
@@ -169,19 +178,21 @@ background-color:black;
 
     .centro{
         margin: auto;
-    width: 340px;
+    width: 390px;
     height: 300px;
-    background-color:black;
+    background-color:rgb(0, 0, 0);
     padding: 5px;
     border-radius:0px 0px 80px 80px;
     }
     .img-logo{
-        width: 300px;
+        width: 350px;
+        margin-left: 400px;;
         border-radius: 50%;
     }
     .titulo-centro{
         text-align: center;
         font-size: 30px;
+        color: white;
         margin: 0px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
@@ -212,7 +223,7 @@ background-color:black;
     }
     .informaçao{
         width: auto;
-        height: 360px;
+        height: 960px;
         padding: 15px;
         background-color: rgb(0, 0, 0);
       margin: 40px;
@@ -332,6 +343,7 @@ font-size: 17px;
     .base-inicio{
  display: flex;
  width: auto;
+ background-color:#000000;
     }
 
 hr{
@@ -342,7 +354,7 @@ border: none;
     .centro{
     width: 300px;
     height: 300px;
-    background-color:#10334a;
+    background-color:#000000;
     padding: 5px;
     border-radius:0px 0px 100px 100px;
     }
@@ -385,7 +397,7 @@ margin-left: 100px;
     }
     .informaçao{
         width: auto;
-        height: 360px;
+        height: 980px;
         padding: 15px;
         background-color: rgb(0, 0, 0);
       margin: 40px;
@@ -507,7 +519,7 @@ font-size: 17px;
     .base-inicio{
  display: flex;
  width: auto;
- background-color:#10334a;
+ background-color:#000000;
 
     }
 
@@ -520,7 +532,7 @@ font-size: 17px;
     .centro{
     width: auto;
     height: 300px;
-    background-color:#10334a;
+    background-color:#000000;
     padding: 5px;
     }
     .img-logo{
@@ -562,7 +574,7 @@ margin-left: 100px;
     }
     .informaçao{
         width: auto;
-        height: 360px;
+        height: 660px;
         padding: 15px;
         background-color: rgb(0, 0, 0);
       margin: 40px;
@@ -612,7 +624,7 @@ margin: 5px;
     width: 280px;
     height: auto;
     padding: 10px;
-    margin: 40px;
+    margin: 30px;
     border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -622,7 +634,7 @@ margin: 5px;
     width: 250px;
     padding: 10px;
     border-radius: 20px;
-    margin: 40px;
+    margin: 20px;
     display: flex;
     flex-wrap: wrap;
 }
